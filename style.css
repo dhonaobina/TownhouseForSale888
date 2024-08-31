@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body { 
+    .abril-fatface-regular {
+        font-family: "Abril Fatface", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+    .alata-regular {
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+      
+    }
+
+
+
+/*--Nav Section--*/
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar {
+    background-image: linear-gradient(to top, #D3B694, #AA9E39);
+    padding: 1 !important;
+}
+
+.navbar-nav li {
+    padding: 5px 10px;
+}
+
+.navbar-nav li a {
+    color: #fff !important;
+    font-weight: 700;
+    font-family: "Alata", sans-serif;
+}
+
+.navbar-light .navbar-toggler-icon {
+    color: #fff; /* Change icon color */
+}
+
+/*--Hero Section--*/
+
+#banner {
+    background: url(./img/Springtownvilla3.png) no-repeat; 
+    position: relative; 
+    background-size: cover;
+    background-color: #B3AC52;
+    
+}
+
+.promo-title {
+    font-size: 40px;
+    font-weight: 700px;
+}
+
+#banner a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#banner-photo {
+    height: 550px;
+    width: 450px;
+    border-radius: 10px;
+    border: 3px solid #fff;
+}
+
+.bottom-img {
+    width: 100%;
+}
+
+/*--About Section--*/
+
+#title::before {
+    content: '';
+    background: #808080;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+
+#about {
+    padding: 80px 0;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw; /* Adjust as needed */
+    object-fit: cover; /* Enables zoom instead of stretching */
+}
+
+#button {
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to top,  #DBCAC0, #B3AC52);
+}
+
+.property-details {
+    background-image: linear-gradient(to top,  #D3B694, #AA9E39);
+    width: auto;
+}
+
+.property-modals {
+    background-image: linear-gradient(to top, #AA9E39, #D3B694);
+    width: auto;
+}
+
+.footer {
+    background-image: linear-gradient(to top, #D3B694, #AA9E39);
+    height: 580px;
+    font-family: "Alata", sans-serif;
+}
