@@ -31,6 +31,7 @@ body {
 .navbar {
     background-image: linear-gradient(to top, #D3B694, #AA9E39);
     padding: 1 !important;
+    background-size: auto;
 }
 
 .navbar-nav li {
