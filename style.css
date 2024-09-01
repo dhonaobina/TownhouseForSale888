@@ -53,9 +53,7 @@ body {
 #banner {
     background: url(./img/Springtownvilla3.png) no-repeat; 
     position: relative; 
-    background-size: cover;
-    background-color: #B3AC52;
-    
+    background-size: cover; 
 }
 
 .promo-title {
@@ -89,7 +87,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    transform: translateY(63px);
+    transform: translateY(75px);
 }
 
 #about {
